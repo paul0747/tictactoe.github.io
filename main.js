@@ -159,6 +159,7 @@ let verificaCastig = () => {
     compare7 ||
     compare8
   ) {
-    prompt(`${weapon} a castigat!`);
+    alert(`${weapon} a castigat!`);
+    window.location.reload();
   }
 };
